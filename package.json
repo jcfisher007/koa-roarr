@@ -1,0 +1,25 @@
+{
+  "name": "koa-roarr",
+  "version": "0.0.1",
+  "description": "A koa logger middleware based on roarr",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jcfisher007/koa-roarr.git"
+  },
+  "keywords": [
+    "ROARR",
+    "KOAJS",
+    "KOA",
+    "LOGGING"
+  ],
+  "author": "JC Fisher",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jcfisher007/koa-roarr/issues"
+  },
+  "homepage": "https://github.com/jcfisher007/koa-roarr#readme"
+}
