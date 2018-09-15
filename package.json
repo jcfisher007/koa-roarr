@@ -21,5 +21,8 @@
   "bugs": {
     "url": "https://github.com/jcfisher007/koa-roarr/issues"
   },
-  "homepage": "https://github.com/jcfisher007/koa-roarr#readme"
+  "homepage": "https://github.com/jcfisher007/koa-roarr#readme",
+  "dependencies": {
+    "uuid": "^3.3.2"
+  }
 }
