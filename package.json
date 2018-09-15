@@ -1,6 +1,6 @@
 {
   "name": "koa-roarr",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "A koa logger middleware based on roarr",
   "main": "index.js",
   "scripts": {
