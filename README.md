@@ -6,8 +6,9 @@ Adds ctx.log with structured json loadding based on roarr.
 
 ```
 var App = require("koa");
-var log = require("koa-roarr");
+var log = require("roarr");
+var logMiddleware = require("koa-roarr");
 var app = new App();
 
-app.use(roarr({ log }));
+app.use(logMiddleware({ log }));
 ```
