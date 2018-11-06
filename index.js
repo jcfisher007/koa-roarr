@@ -6,11 +6,12 @@ var logger = ({
   outMsg = "http response"
 }) => async (ctx, next) => {
   var { request, response } = ctx;
-  var requestId = ctx.request.headers["x-request-id"] || `s-${uuidv4()}`;
+  var requestId = request.headers["x-request-id"] || `s-${uuidv4()}`;
   ctx.log = log.child({ requestId });
-  ctx.log.info({ request }, inMsg);
+  var { trace } = ctx.log;
+  trace({ request }, inMsg);
   await next();
-  ctx.log.info({ response }, outMsg);
+  trace({ response }, outMsg);
 };
 
 module.exports = logger;
